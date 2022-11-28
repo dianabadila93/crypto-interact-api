@@ -1,5 +1,5 @@
 from flask import Blueprint, request
-from flask_restplus import Namespace, Resource, fields
+from flask_restx import Namespace, Resource, fields
 #http://127.0.0.1:5000/interact_api/swagger
 
 blueprint = Blueprint('interact_api', __name__, url_prefix='/interact_api')

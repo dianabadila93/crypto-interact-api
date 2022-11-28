@@ -1,7 +1,7 @@
 from src.api.controllers.interact_controller import blueprint \
     as interact_blueprint
 from flask import Blueprint
-from flask_restplus import Api
+from flask_restx import Api
 from src.api.controllers.interact_controller import interactNamespace
 
 api_extension = Api(
