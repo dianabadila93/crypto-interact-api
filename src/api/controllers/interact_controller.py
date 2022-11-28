@@ -14,3 +14,4 @@ class Interact(Resource):
     def get(self):
         '''List all interactions'''
         return interact_example
+
